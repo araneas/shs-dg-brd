@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Choose a dog breed</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="header__block">
+            <p class="header__title">Choose a dog breed:</p>
+        </div>
+        <div class="header__block">
+            <select id="breeds">
+                <option value="" selected></option>
+            </select>
+        </div>
+        <div class="header__block">
+            <p class="header__title">Number of photos:</p>
+        </div>
+        <div class="header__block">
+            <input id="counter" type="number" class="counter" required min=1 step=1 value=2>
+        </div>
+    </div>
+    <div>
+        <button>
+            <p>Show fotoes</p>
+        </button>
+    </div>
+    <div class="fotoes__block">
+        <ul class="show__fotoes" id="show__fotoes">
+        </ul>
+    </div>
+</body>
+<script lang="javascript" src="script.js"></script>
+
+</html>
